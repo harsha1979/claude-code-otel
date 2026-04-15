@@ -162,4 +162,4 @@ LABEL cpe=""
 LABEL io.buildah.version=""
 LABEL release=""
 
-CMD ["/otel-lgtm/run-all.sh"]
+USER 10014
