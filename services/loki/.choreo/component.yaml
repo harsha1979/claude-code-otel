@@ -1,0 +1,12 @@
+schemaVersion: 1.2
+
+endpoints:
+  - name: loki
+    displayName: Loki Metrics Exporter
+    type: REST
+    service:
+      basePath: /
+      port: 3100
+    networkVisibilities:
+      - Project
+      - Public

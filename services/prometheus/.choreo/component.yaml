@@ -1,0 +1,12 @@
+schemaVersion: 1.2
+
+endpoints:
+  - name: prometheus
+    displayName: Prometheus Metrics Exporter
+    type: REST
+    service:
+      basePath: /
+      port: 9090
+    networkVisibilities:
+      - Project
+      - Public
