@@ -1,7 +1,7 @@
 schemaVersion: 1.2
 
 endpoints:
-  - name: prometheus
+  - name: prometheusotel
     displayName: Prometheus Metrics Exporter
     type: REST
     service:
@@ -9,9 +9,8 @@ endpoints:
       port: 8889
     networkVisibilities:
       - Project
-      - Public
 
-  - name: otel-grpc
+  - name: otelgrpc
     displayName: OTLP gRPC Receiver
     type: GRPC
     service:
@@ -20,12 +19,11 @@ endpoints:
     networkVisibilities:
       - Project
 
-  - name: otel-http
+  - name: otelhttp
     displayName: OTLP HTTP Receiver
     type: REST
     service:
       basePath: /
       port: 4318
     networkVisibilities:
-      - Project
       - Public
