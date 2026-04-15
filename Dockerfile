@@ -1,4 +1,4 @@
-FROM grafana/otel-lgtm:latest
+FROM grafana/otel-lgtm:0.22.0
 
 EXPOSE 3000
 EXPOSE 4317
