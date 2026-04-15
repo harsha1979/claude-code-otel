@@ -1,7 +1,7 @@
 schemaVersion: 1.2
 
 endpoints:
-  - name: Prometheus
+  - name: prometheus
     displayName: Prometheus Metrics Exporter
     type: REST
     service:
