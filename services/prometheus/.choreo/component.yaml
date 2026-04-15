@@ -9,4 +9,3 @@ endpoints:
       port: 9090
     networkVisibilities:
       - Project
-      - Public
