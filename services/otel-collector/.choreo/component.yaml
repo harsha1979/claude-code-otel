@@ -17,7 +17,7 @@ endpoints:
       basePath: /
       port: 4317
     networkVisibilities:
-      - Project
+      - Public
 
   - name: otelhttp
     displayName: OTLP HTTP Receiver
