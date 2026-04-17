@@ -8,4 +8,4 @@ endpoints:
       basePath: /
       port: 9090
     networkVisibilities:
-      - Project
+      - Public
